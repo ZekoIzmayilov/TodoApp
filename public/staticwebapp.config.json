@@ -1,0 +1,117 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/accounts/login",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/register",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/error",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/landing",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/dashboard",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/cities",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/menus",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/organizations",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/organizations/:id",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/owners",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/contacts",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/roles",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/role-specific-menus",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/announcement",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/users",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/user-announcement",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/blank",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/search",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/documents",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/lock",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/*",
+      "serve": "/index.html",
+      "statusCode": 200
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  }
+}
